@@ -1,6 +1,7 @@
 {
   "short_name": "바하르 직원할인 가이드",
-  "name": "",
+  "name": "바하르 직원할인 가이드",
+
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

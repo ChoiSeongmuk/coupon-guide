@@ -7,9 +7,9 @@ const GuidePage = () => {
   const images = [a, b, c];
   return (
     <div className="justify-center">
-      {images.map((image) => (
+      {images.map((image, index) => (
         /* eslint-disable-next-line */
-        <img src={image} className="flex-none w-screen" />
+        <img src={image} className="flex-none w-screen" key={index} />
       ))}
     </div>
   );
