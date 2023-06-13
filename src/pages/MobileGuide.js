@@ -1,12 +1,15 @@
 import React from "react";
-import img1 from "../assets/img.gif";
+import a from "../assets/a.jpeg";
+import b from "../assets/b.jpeg";
+import c from "../assets/c.jpeg";
+
 const GuidePage = () => {
-  const images = [img1];
+  const images = [a, b, c];
   return (
-    <div className="flex overflow-x-auto">
+    <div className="justify-center">
       {images.map((image) => (
         /* eslint-disable-next-line */
-        <img src={image} className="flex-none w-full h-screen" />
+        <img src={image} className="flex-none w-screen" />
       ))}
     </div>
   );
