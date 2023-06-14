@@ -3,7 +3,7 @@ import a from "../assets/a.jpeg";
 import b from "../assets/b.jpeg";
 import c from "../assets/c.jpeg";
 
-const GuidePage = () => {
+const DetailPage = () => {
   const images = [a, b, c];
   return (
     <div className="justify-center">
@@ -14,4 +14,4 @@ const GuidePage = () => {
     </div>
   );
 };
-export default GuidePage;
+export default DetailPage;

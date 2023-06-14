@@ -1,9 +1,15 @@
 import React from "react";
-import GuidePage from "./pages/MobileGuide";
+import Guide from "./pages/Guide";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <div>
-      <GuidePage />
+      <BrowserRouter>
+        <Routes>
+          <Route exact path={"/"} element={<Guide />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
